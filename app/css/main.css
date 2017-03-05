@@ -180,3 +180,17 @@
 .carousel-indicators {
   left: 30px;
   margin-bottom: -30px; }
+
+.form-home {
+  height: 3991px;
+  background-color: #ffffff;
+  margin-top: -202px;
+  z-index: 2; }
+
+.brief-buton {
+  width: 389px;
+  height: 103px;
+  background-color: #0c5f77;
+  float: right;
+  margin-right: 46px;
+  margin-top: -103px; }
