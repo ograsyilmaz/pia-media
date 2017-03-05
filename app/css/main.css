@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'latoregular';
+  src: url("../fonts/web/lato-regular-webfont.woff2") format("woff2"), url("../fonts/web/lato-regular-webfont.woff") format("woff"), url("../fonts/web/lato-regular-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/web/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/web/opensans-regular-webfont.woff") format("woff"), url("../fonts/web/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url("../fonts/web/poppins-light-webfont.woff2") format("woff2"), url("../fonts/web/poppins-light-webfont.woff") format("woff"), url("../fonts/web/poppins-light-webfont.svg#poppinslight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url("../fonts/web/poppins-regular-webfont.woff2") format("woff2"), url("../fonts/web/poppins-regular-webfont.woff") format("woff"), url("../fonts/web/poppins-regular-webfont.svg#poppinsregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url("../fonts/web/poppins-semibold-webfont.woff2") format("woff2"), url("../fonts/web/poppins-semibold-webfont.woff") format("woff"), url("../fonts/web/poppins-semibold-webfont.svg#poppinssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url("../fonts/web/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/web/raleway-bold-webfont.woff") format("woff"), url("../fonts/web/raleway-bold-webfont.svg#ralewaybold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ralewaylight';
+  src: url("../fonts/web/raleway-light-webfont.woff2") format("woff2"), url("../fonts/web/raleway-light-webfont.woff") format("woff"), url("../fonts/web/raleway-light-webfont.svg#ralewaylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url("../fonts/web/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/web/raleway-regular-webfont.woff") format("woff"), url("../fonts/web/raleway-regular-webfont.svg#ralewayregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque-Regular';
+  src: url("../fonts/web/Geogrotesque-Regular.eot");
+  src: url("../fonts/web/Geogrotesque-Regular.woff2") format("woff2"), url("../fonts/web/Geogrotesque-Regular.woff") format("woff"), url("../fonts/web/Geogrotesque-Regular.ttf") format("truetype"), url("../fonts/web/Geogrotesque-Regular.svg#Geogrotesque-Regular") format("svg"), url("../fonts/web/Geogrotesque-Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque-Light';
+  src: url("../fonts/web/Geogrotesque-Light.eot");
+  src: url("../fonts/web/Geogrotesque-Light.woff2") format("woff2"), url("../fonts/web/Geogrotesque-Light.woff") format("woff"), url("../fonts/web/Geogrotesque-Light.ttf") format("truetype"), url("../fonts/web/Geogrotesque-Light.svg#Geogrotesque-Light") format("svg"), url("../fonts/web/Geogrotesque-Light.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque-Bold';
+  src: url("../fonts/web/Geogrotesque-Bold.eot");
+  src: url("../fonts/web/Geogrotesque-Bold.woff2") format("woff2"), url("../fonts/web/Geogrotesque-Bold.woff") format("woff"), url("../fonts/web/Geogrotesque-Bold.ttf") format("truetype"), url("../fonts/web/Geogrotesque-Bold.svg#Geogrotesque-Bold") format("svg"), url("../fonts/web/Geogrotesque-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Geogrotesque-SemiBold';
+  src: url("../fonts/web/Geogrotesque-SemiBold.eot");
+  src: url("../fonts/web/Geogrotesque-SemiBold.woff2") format("woff2"), url("../fonts/web/Geogrotesque-SemiBold.woff") format("woff"), url("../fonts/web/Geogrotesque-SemiBold.ttf") format("truetype"), url("../fonts/web/Geogrotesque-SemiBold.svg#Geogrotesque-SemiBold") format("svg"), url("../fonts/web/Geogrotesque-SemiBold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+.main {
+  width: 100%;
+  background-color: #ffffff; }
+
+.header {
+  background-image: url("../img/backgroun-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 909px;
+  padding-top: 58px; }
+
+.logo {
+  display: inline-block; }
+  .logo img {
+    width: 128px;
+    height: 132px; }
+
+.logo-text {
+  display: inline-block;
+  position: absolute;
+  margin-top: 31px;
+  padding-left: 17px; }
+  .logo-text p:first-child {
+    margin-top: 0; }
+  .logo-text p {
+    margin: 0;
+    margin-top: -5px;
+    font-family: "Geogrotesque-Regular";
+    font-size: 20px;
+    color: #ffffff; }
+
+.social {
+  float: right;
+  margin-top: 43px; }
+  .social ul {
+    list-style: none outside none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .social ul li {
+      float: left; }
+  .social span {
+    -moz-border-radius: 50px/50px;
+    -webkit-border-radius: 50px 50px;
+    border-radius: 50px/50px;
+    border: solid 2px #ffffff;
+    width: 34px;
+    height: 34px;
+    display: block;
+    margin-right: 8px; }
+    .social span i {
+      font-size: 16px;
+      margin-left: 7px;
+      margin-top: 8px;
+      color: #ffffff; }
+  .social span:last-child {
+    margin-right: 15px; }
+
+.button-color {
+  background-color: #0c5f77;
+  color: #fff;
+  font-family: "ralewaybold";
+  font-size: 14px; }
+
+.facebook i {
+  margin-left: 10px !important; }
+
+.facebook:hover i {
+  color: #3b5998; }
+
+.twitter:hover i {
+  color: #1da1f2; }
+
+.googleplus i {
+  margin-left: 5px !important; }
+
+.googleplus:hover i {
+  color: #2d2d2d; }
+
+.vimeo:hover i {
+  color: #45bbff; }
+
+.pinterest:hover i {
+  color: #cb2027; }
+
+.slider {
+  margin-top: 58px; }
+  .slider p {
+    font-family: "Geogrotesque-Light";
+    color: #ffffff;
+    font-size: 20px; }
+  .slider h3 {
+    font-family: "Geogrotesque-Bold";
+    color: #ffffff;
+    font-size: 58px; }
+
+.carousel {
+  height: 208px; }
+
+.carousel-caption {
+  position: static;
+  text-align: left; }
+
+.carousel-indicators {
+  left: 30px;
+  margin-bottom: -30px; }

@@ -1,0 +1,13 @@
+Geogrotesque regular 20px   (verimli iþ ortaklarým)
+Geogrotesque bold   58px (profesyonle iþ ortaklarým)
+geogrotesquer light 20px (netice cok iyi)
+müþteri brifi  geogrotesquer  SemiBold 29px müþteri brif
+poppins semibold 16px
+popins light 14px
+poping regular 16px
+arial regular 13px
+raleway bold 14 px     (anasayfa)
+releway light 37px ptoje haberder olmaz
+releway regular 20px
+opensans regula 14px
+loto regular 20px
