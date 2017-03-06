@@ -56,10 +56,18 @@ font-family: poppinssemibold;
 }
 .yataycizgi{
   margin-top: 37px;
+  margin-bottom: 12px;
 }
 .stupday{
   span p:before{
     border-left: 4px solid $solidred;
-  }
+ content:"";
+    margin-right: 12px;
 
+  }
+span p{
+  font-family:Geogrotesque-Regular ;
+  font-size: 20px;
+  color: $formtext;
+}
 }

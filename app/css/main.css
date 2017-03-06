@@ -221,7 +221,15 @@
   color: #333333; }
 
 .yataycizgi {
-  margin-top: 37px; }
+  margin-top: 37px;
+  margin-bottom: 12px; }
 
 .stupday span p:before {
-  border-left: 4px solid #FF0000; }
+  border-left: 4px solid #FF0000;
+  content: "";
+  margin-right: 12px; }
+
+.stupday span p {
+  font-family: Geogrotesque-Regular;
+  font-size: 20px;
+  color: #575756; }
