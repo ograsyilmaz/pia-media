@@ -229,7 +229,11 @@
   content: "";
   margin-right: 12px; }
 
+.stupday span img {
+  float: right; }
+
 .stupday span p {
   font-family: Geogrotesque-Regular;
   font-size: 20px;
-  color: #575756; }
+  color: #575756;
+  display: inline-block; }
