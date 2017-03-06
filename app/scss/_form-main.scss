@@ -13,5 +13,25 @@
   float: right;
   margin-right: 46px;
   margin-top: -103px;
+border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+span{
 
+  margin-top: 28px;
+  position: absolute;
+  i{
+    margin-right: 17px;
+  margin-left: 15px;
+
+  }
+
+}
+  p{
+    display: inline-block;
+   margin-top: 35px;
+    font-size: 29px;
+    font-family:Geogrotesque-SemiBold ;
+    color:$MainBackground;
+    margin-left: 63px;
+  }
 }

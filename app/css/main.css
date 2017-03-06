@@ -193,4 +193,19 @@
   background-color: #0c5f77;
   float: right;
   margin-right: 46px;
-  margin-top: -103px; }
+  margin-top: -103px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  .brief-buton span {
+    margin-top: 28px;
+    position: absolute; }
+    .brief-buton span i {
+      margin-right: 17px;
+      margin-left: 15px; }
+  .brief-buton p {
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 29px;
+    font-family: Geogrotesque-SemiBold;
+    color: #ffffff;
+    margin-left: 63px; }
