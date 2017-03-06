@@ -221,7 +221,6 @@
   color: #333333; }
 
 .yataycizgi {
-  margin-top: 37px;
   margin-bottom: 12px; }
 
 .stupday span p:before {
@@ -242,8 +241,7 @@
   width: 100%;
   max-width: 100%;
   border-color: #bcbcbc;
-  border-radius: 5px;
-  height: 158px; }
+  border-radius: 5px; }
 
 .alert-box-day {
   position: absolute;
@@ -251,4 +249,25 @@
   right: 24px; }
 
 .alert {
-  background-color: #ededed; }
+  background-color: #ededed;
+  font-family: Arial;
+  color: #bdbdbd;
+  font-size: 13px; }
+
+.yataycizgi-whatday {
+  margin-top: 37px; }
+
+.textbox-size-startday {
+  height: 158px; }
+
+.textbox-size-company {
+  height: 50px; }
+
+.yataycizgi-company {
+  margin-top: 12px; }
+
+.yataycizgi-county {
+  margin-top: 10px; }
+
+.yataycizgi-store {
+  margin-top: 18px; }

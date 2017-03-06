@@ -53,8 +53,7 @@
 }
 
 .yataycizgi {
-  margin-top: 37px;
-  margin-bottom: 12px;
+   margin-bottom: 12px;
 }
 
 .stupday {
@@ -84,7 +83,7 @@
   max-width: 100%;
   border-color: $formborder;
   border-radius: 5px;
-  height:158px;
+
 }
 .alert-box-day{
 
@@ -95,7 +94,29 @@
 }
 .alert{
   background-color: $allerttextbox;
+   font-family: Arial;
+  color:$allertextboxtext;
+  font-size: 13px;
 }
-.text-box{
 
+.yataycizgi-whatday{
+  margin-top: 37px;
+}
+
+.textbox-size-startday{
+  height:158px;
+}
+
+.textbox-size-company{
+  height:50px;
+}
+.yataycizgi-company{
+  margin-top: 12px;
+}
+
+.yataycizgi-county{
+  margin-top: 10px;
+}
+.yataycizgi-store{
+  margin-top: 18px;
 }
