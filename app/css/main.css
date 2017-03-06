@@ -237,3 +237,18 @@
   font-size: 20px;
   color: #575756;
   display: inline-block; }
+
+.stupday-text {
+  width: 100%;
+  max-width: 100%;
+  border-color: #bcbcbc;
+  border-radius: 5px;
+  height: 158px; }
+
+.alert-box-day {
+  position: absolute;
+  top: 48px;
+  right: 24px; }
+
+.alert {
+  background-color: #ededed; }
