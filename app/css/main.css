@@ -210,10 +210,18 @@
     color: #ffffff;
     margin-left: 63px; }
 
-.form-contorlle {
-  z-index: 4; }
+.form-controlle-left {
+  margin-left: 60px;
+  margin-top: 70px;
+  margin-right: 48px; }
 
 .feedback-title {
   font-family: poppinssemibold;
   font-size: 28px;
   color: #333333; }
+
+.yataycizgi {
+  margin-top: 37px; }
+
+.stupday span p:before {
+  border-left: 4px solid #FF0000; }
