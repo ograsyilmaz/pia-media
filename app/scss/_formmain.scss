@@ -204,9 +204,21 @@ margin-top: 22px;
 }
 
 .brief-text{
+
   p{
 font-family: Geogrotesque-SemiBold;
     font-size: 29px;
     color: $breiftextcolor;
+    margin-top: 38px;
+  }
+}
+
+
+.biref-main-tex{
+  p{
+    font-family: Geogrotesque-Light;
+    font-size: 18px;
+    color: $formtext;
+    margin-top: 21px;
   }
 }
