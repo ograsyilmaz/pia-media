@@ -162,3 +162,17 @@ margin-top: 46px;
 .textbox-top{
   margin-top: 25px;
 }
+.input-box {
+input{
+  width:16px;
+  height: 17px;
+  border: 1px solid $chekboxcolor;
+
+}
+  p{
+    font-family:Geogrotesque-Regular ;
+    font-size: 20px;
+    color: $formtext;
+    display: inline-block;
+  }
+}

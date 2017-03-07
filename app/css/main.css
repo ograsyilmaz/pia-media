@@ -308,3 +308,14 @@
 
 .textbox-top {
   margin-top: 25px; }
+
+.input-box input {
+  width: 16px;
+  height: 17px;
+  border: 1px solid #dedede; }
+
+.input-box p {
+  font-family: Geogrotesque-Regular;
+  font-size: 20px;
+  color: #575756;
+  display: inline-block; }
