@@ -272,3 +272,18 @@
 
 .yataycizgi-store {
   margin-top: 18px; }
+
+.buton-submit {
+  margin-top: 99px; }
+  .buton-submit p {
+    font-family: poppinslight;
+    color: #cbcbcb;
+    font-size: 11px;
+    margin: 0;
+    display: inline;
+    margin-left: 16px; }
+
+.buton-gonder {
+  font-family: poppinsregular;
+  font-size: 16px;
+  color: #555555; }
