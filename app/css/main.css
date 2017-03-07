@@ -319,3 +319,30 @@
   font-size: 20px;
   color: #575756;
   display: inline-block; }
+
+.text-box {
+  width: 188px;
+  height: 51px; }
+  .text-box p {
+    font-family: Geogrotesque-Regular;
+    font-size: 20px;
+    color: #575756;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    padding-top: 16px;
+    padding-left: 22px;
+    padding-bottom: 17px; }
+
+.textbox-box-tx {
+  margin-top: 22px; }
+
+.textbox-top5-tx {
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  width: 189px;
+  height: 62px; }
+
+.brief-text p {
+  font-family: Geogrotesque-SemiBold;
+  font-size: 29px;
+  color: #e30613; }
