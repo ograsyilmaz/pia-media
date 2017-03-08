@@ -78,6 +78,9 @@
   width: 100%;
   background-color: #ffffff; }
 
+.form-main {
+  background-color: #f7f7f7; }
+
 .header {
   background-image: url("../img/backgroun-img.png");
   background-repeat: no-repeat;
@@ -182,10 +185,11 @@
   margin-bottom: -30px; }
 
 .form-home {
-  height: 3991px;
   background-color: #ffffff;
   margin-top: -202px;
-  z-index: 2; }
+  z-index: 2;
+  padding-bottom: 78px;
+  margin-bottom: 179px; }
 
 .brief-buton {
   width: 389px;
@@ -320,10 +324,10 @@
   color: #575756;
   display: inline-block; }
 
-.text-box {
+.text-box-ck {
   width: 188px;
   height: 51px; }
-  .text-box p {
+  .text-box-ck p {
     font-family: Geogrotesque-Regular;
     font-size: 20px;
     color: #575756;
@@ -347,3 +351,23 @@
   font-size: 29px;
   color: #e30613;
   margin-top: 38px; }
+
+.biref-main-tex p {
+  font-family: Geogrotesque-Light;
+  font-size: 18px;
+  color: #575756;
+  margin-top: 21px; }
+
+.new {
+  background: #0c5f77;
+  height: 157px; }
+  .new p {
+    color: #ffffff;
+    font-family: ralewaylight;
+    font-size: 37px;
+    margin-top: 64px;
+    margin-left: 28px; }
+
+.new-button {
+  float: right;
+  margin-right: 30px; }

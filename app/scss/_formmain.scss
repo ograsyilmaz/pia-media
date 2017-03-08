@@ -1,9 +1,10 @@
 .form-home {
-  height: 3991px;
+
   background-color: $MainBackground;
   margin-top: -202px;
   z-index: 2;
-
+padding-bottom: 78px;
+  margin-bottom: 179px;
 }
 
 .brief-buton {
@@ -177,7 +178,7 @@ input{
   }
 }
 
-.text-box{
+.text-box-ck{
   p{
     font-family:Geogrotesque-Regular;
     font-size: 20px;
@@ -221,4 +222,21 @@ font-family: Geogrotesque-SemiBold;
     color: $formtext;
     margin-top: 21px;
   }
+}
+
+.new{
+  background: $newblink;
+  height: 157px;
+  p{
+    color: #ffffff;
+    font-family: ralewaylight;
+    font-size: 37px;
+    margin-top: 64px;
+    margin-left: 28px;
+  }
+}
+
+.new-button{
+  float: right;
+  margin-right: 30px;
 }
