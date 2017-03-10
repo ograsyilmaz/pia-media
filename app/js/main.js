@@ -1,8 +1,10 @@
-/**
- * Created by Victore on 10.03.2017.
- */
-$(document).ready(function(){
-    $(".activ-btne").click(function(){
-        $(".alert").show()
-    })
-});
+
+
+
+function showAlert(divid,icdivid,mesaj) {
+    if($('#'+divid).find('div'+'#'+icdivid).length==0){
+        $('#'+divid).append('<div class="alert" id="'+icdivid+'" ><a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a><img src="img/commed.png" alt="">'+mesaj+'</div>');
+
+}
+$(divid).css("display", "");
+}
