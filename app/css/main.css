@@ -81,6 +81,29 @@
 .form-main {
   background-color: #f7f7f7; }
 
+.sol-cizgi {
+  border: solid 1px #eeeeee;
+  display: inline-block;
+  width: 10%; }
+
+.orta-cizgi {
+  width: 15px;
+  height: 15px;
+  border: solid 2px #eeeeee;
+  border-color: transparent transparent #eeeeee #eeeeee;
+  border-radius: 0px 0px 0px 0px;
+  transform: rotate(-45deg);
+  display: inline-block;
+  margin-top: 6.4px;
+  margin-left: -1px;
+  position: absolute; }
+
+.sag-cizgi {
+  border: solid 1px #eeeeee;
+  display: inline-block;
+  margin-left: 16px;
+  width: 85%; }
+
 .header {
   background-image: url("../img/backgroun-img.png");
   background-repeat: no-repeat;
