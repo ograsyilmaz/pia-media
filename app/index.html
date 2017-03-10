@@ -151,13 +151,6 @@
                                                         <input type="text" name="start-sector-day  "
                                                                class="stupday-text textbox-size-startday">
                                                         <div class="alert-box-day" id="styrday-allert" >
-                                                            <!--<div class="alert" id="styrday-allert2">-->
-                                                                <!--<a href="#" class="close" data-dismiss="alert"-->
-                                                                   <!--aria-label="close" title="close">×</a>-->
-                                                                <!--<img src="img/commed.png" alt="">-->
-                                                                <!--Lütfen firmanızı tanıtan kısa açıklama ve kuruluş-->
-                                                                <!--yılınızı girin.-->
-                                                            <!--</div>-->
 
                                                         </div>
 
@@ -176,20 +169,14 @@
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="stupday">
-                                                    <span><p>Sektörünüzle ilgili bir farklılık sunuyor musunuz ?</p><img
-                                                            src="img/commetred.png"></span>
+                                                    <span><p>Sektörünüzle ilgili bir farklılık sunuyor musunuz ?</p>
+                                                        <img src="img/commetred.png" onclick="showAlert('start-daycompanyday','Hizmet verdiğiniz sektörde hizmetleriniz ve ürünleriniz ile farklı olduğunuz düşündüğünüz konuları yazın.');"></span>
                                                     </div>
                                                     <div class="text-box">
                                                         <input type="text" name="start-company-day"
                                                                class="stupday-text textbox-size-company">
-                                                        <div class="alert-box-day">
-                                                            <div class="alert">
-                                                                <a href="#" class="close" data-dismiss="alert"
-                                                                   aria-label="close" title="close">×</a>
-                                                                <img src="img/commed.png" alt="">
-                                                                Hizmet verdiğiniz sektörde hizmetleriniz ve ürünleriniz
-                                                                ile farklı olduğunuz düşündüğünüz konuları yazın.
-                                                            </div>
+                                                        <div class="alert-box-day" id="start-daycompanyday">
+
 
                                                         </div>
 
@@ -209,19 +196,13 @@
                                                 <div class="col-lg-12">
                                                     <div class="stupday">
                                                     <span><p>Hangi il ya da illerde faaliyet gösteriyor sunuz ?</p><img
-                                                            src="img/commetred.png"></span>
+                                                            src="img/commetred.png" onclick="showAlert('start-company-day',' Lütfen firmanızı tanıtan kısa açıklama ve kuruluş yılınızı girin')"></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-city"
                                                                class="stupday-text textbox-size-company">
-                                                        <div class="alert-box-day">
-                                                            <div class="alert">
-                                                                <a href="#" class="close" data-dismiss="alert"
-                                                                   aria-label="close" title="close">×</a>
-                                                                <img src="img/commed.png" alt="">
-                                                                Lütfen firmanızı tanıtan kısa açıklama ve kuruluş
-                                                                yılınızı girin.
-                                                            </div>
+                                                        <div class="alert-box-day" id="start-company-day">
+
 
                                                         </div>
 
@@ -241,18 +222,13 @@
                                                 <div class="col-lg-12">
                                                     <div class="stupday">
                                                     <span><p>Satış noktası,özelliklerinizden bahseder misiniz? </p><img
-                                                            src="img/commetred.png"></span>
+                                                            src="img/commetred.png" onclick="showAlert('start-company-feature','Bayii ve satış noktalarınızın lokasyon özellikleriniz yazın')"></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-feature"
                                                                class="stupday-text textbox-size-company">
-                                                        <div class="alert-box-day">
-                                                            <div class="alert">
-                                                                <a href="#" class="close" data-dismiss="alert"
-                                                                   aria-label="close" title="close">×</a>
-                                                                <img src="img/commed.png" alt="">
-                                                                Bayii ve satış noktalarınızın özellikleriniz yazın.
-                                                            </div>
+                                                        <div class="alert-box-day" id="start-company-feature">
+
 
                                                         </div>
 
@@ -274,12 +250,17 @@
                                                 </div>
                                                 <div class="col-lg-12">
                                                     <div class="stupday">
-                                                        <span><p>İletişim planınız içerisinde ulaşmak istediğiniz hedefiniz nedir?</p></span>
+                                                        <span><p>İletişim planınız içerisinde ulaşmak istediğiniz hedefiniz nedir?</p><img
+                                                                src="img/commetred.png" onclick="showAlert('start-company-content','Bayii ve satış noktalarınızın lokasyon özellikleriniz yazın')"></span>
+                                                        </span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-content"
                                                                class="stupday-text textbox-size-company">
+                                                        <div class="alert-box-day" id="start-company-content">
 
+
+                                                        </div>
 
                                                     </div>
 
@@ -302,7 +283,7 @@
                                                         <span><p>Kimlere ulaşmak istiyor sunuz ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-target"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -324,7 +305,7 @@
                                                         <span><p>Demografik olarak belirleyebiliyor musunuz? yaş, cinsiyet, vb.</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-area"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -350,7 +331,7 @@
                                                         <span><p>Hedef kitlenize hangi kanallardan, ne şekilde ulaşmak istiyorsunuz ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-pipe"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -376,7 +357,7 @@
                                                         <span><p>Hedef kitlenizin sizi nasıl algılamasını istiyor sunuz ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-visibility"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -399,7 +380,7 @@
                                                         <span><p>İnandırmak istediğiniz değerler nelerdir.? Duygusal ve fiziksel vaadi</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-values"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -425,7 +406,7 @@
                                                         <span><p>Ürün ve ya hizmetleriniz nelerdir ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-product"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -448,7 +429,7 @@
                                                         <span><p>Ürün ve ya hizmetlerinizin birincil ve ikincil yararları ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-primary"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -471,7 +452,7 @@
                                                         <span><p>Ürün ve ya hizmetlerinizin yenilikleri ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-new"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -497,7 +478,7 @@
                                                         <span><p>Markanızın / şirketinizin güçlü yönleri nelerdir ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-brand"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -520,7 +501,7 @@
                                                         <span><p>Markanızın / şirketinizin zayıf yönleri nelerdir ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-weak"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -543,7 +524,7 @@
                                                         <span><p>Markanızın / şirketiniz erkek mi, dişi mi yoksa cinsiyetsiz mi ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-gender"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -566,7 +547,7 @@
                                                         <span><p>Markanızın / şirketiniz genç mi, yaşlı mı, yoksa 7’den 70’e mi ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-young"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -589,7 +570,7 @@
                                                         <span><p>Markanız yüksek gelir düzeyine mi yoksa işçi sınıfına mı yönelik?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-money"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -612,7 +593,7 @@
                                                         <span><p>Markanız yerel mi, bölgesel mi, ulusal mı, yoksa global mı.?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-global"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -638,7 +619,7 @@
                                                         <span><p>Markanızın reklamı sizce ne şekilde yapılmalı. ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-figure"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -661,7 +642,7 @@
                                                         <span><p>Projenizde düşündüğünüz zaman aralığı nedir. ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-time"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -687,7 +668,7 @@
                                                         <span><p>Projeniz için ayırdığınız bütçe nedir. ? </p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-money-plane"
                                                                class="stupday-text textbox-size-company">
 
 
@@ -713,7 +694,7 @@
                                                         <span><p>Verdiğiniz bilgiler dışında eklemek istediğiniz notlarınız paylaşın ?</p></span>
                                                     </div>
                                                     <div class="text-box">
-                                                        <input type="text" name="start-company-day"
+                                                        <input type="text" name="start-company-theend"
                                                                class="stupday-text textbox-size-company">
 
 
