@@ -241,4 +241,26 @@ font-family: Geogrotesque-SemiBold;
   float: right;
   margin-right: 30px;
   margin-top: 83px;
+  border-radius: 5px 5px 5px 5px;
+  font-family: open_sansregular;
+  font-size: 14px;
+}
+
+.new-button-text{
+  border-radius: 5px 0 0 5px;
+
+  height: 40px;
+  margin-right: -3.6px;
+  width: 268px;
+  color: #999999;
+
+}
+.new-button-text-post{
+  border-radius: 0 5px 5px 0;
+
+  height: 40px;
+  width: 81px;
+  border:5px solid transparent ;
+  color: #ffffff;
+background-color: #dc3023;
 }

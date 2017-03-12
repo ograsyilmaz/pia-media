@@ -102,7 +102,7 @@
   border: solid 1px #eeeeee;
   display: inline-block;
   margin-left: 16px;
-  width: 85%; }
+  width: 75%; }
 
 .header {
   background-image: url("../img/backgroun-img.png");
@@ -395,9 +395,45 @@
 .new-button {
   float: right;
   margin-right: 30px;
-  margin-top: 83px; }
+  margin-top: 83px;
+  border-radius: 5px 5px 5px 5px;
+  font-family: open_sansregular;
+  font-size: 14px; }
 
-.footer {
+.new-button-text {
+  border-radius: 5px 0 0 5px;
+  height: 40px;
+  margin-right: -3.6px;
+  width: 268px;
+  color: #999999; }
+
+.new-button-text-post {
+  border-radius: 0 5px 5px 0;
+  height: 40px;
+  width: 81px;
+  border: 5px solid transparent;
+  color: #ffffff;
+  background-color: #dc3023; }
+
+.footerend {
   height: 460px;
   background-image: url("../img/main.png");
   background-repeat: no-repeat; }
+
+.footer-logo {
+  margin-top: 61px; }
+
+.selam {
+  margin-top: 28px; }
+  .selam p {
+    font-family: poppinsregular;
+    font-size: 20px;
+    color: #ffffff; }
+
+.footer-email p {
+  display: inline-block;
+  font-family: latoregular;
+  color: #ffffff;
+  font-size: 20px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px; }

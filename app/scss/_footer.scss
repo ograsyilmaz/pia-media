@@ -1,7 +1,31 @@
-.footer{
+.footerend{
 height: 460px;
   background-image:url('../img/main.png');
   background-repeat:no-repeat;
 
+}
+
+.footer-logo{
+  margin-top: 61px;
+}
+
+.selam{
+  margin-top: 28px;
+  p{
+    font-family: poppinsregular;
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+
+.footer-email{
+  p{
+    display: inline-block;
+    font-family: latoregular;
+    color: #ffffff;
+    font-size: 20px;
+    border-bottom: 1px solid #ffffff;;
+    padding-bottom: 10px;
+  }
 }
 
